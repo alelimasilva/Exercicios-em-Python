@@ -3,8 +3,7 @@
     O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas
     as pessoas cadastradas. '''
 
-from ex061 import dados
+import dados
 
-dados.header('MENU PRINCIPAL')
-
-
+dados.cabecalho('MENU PRINCIPAL')
+dados.menu()
